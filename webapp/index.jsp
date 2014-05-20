@@ -9,11 +9,11 @@
 <body>
 1부터 10까지의 총 합을 구하여 출력하시오.
 <%
-int sum = 0;
-for(int i=0;i<=10;i++){
-	sum+=i;
-}
+study.MyCalc c = new study.MyCalc();
+int sum = c.myHap();
+int sum2 = c.myHap(2,60);
 %>
-<%=sum %>
+<%=sum %><br />
+<%=sum2 %>
 </body>
 </html>
